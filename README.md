@@ -1,7 +1,3 @@
-Here’s a sample README file for your double pendulum project that includes an overview of the mathematical model and steps to set up the project:
-
----
-
 # Double Pendulum with Lagrangian Neural Network
 
 ## Overview
@@ -82,5 +78,3 @@ python main.py
 This project demonstrates the application of neural networks in learning the dynamics of nonlinear systems using Lagrangian mechanics. The trained LNN can be further utilized to predict future states of the double pendulum or to control similar systems.
 
 ---
-
-Feel free to modify the content to fit your project’s specifics or any additional information you might want to include! If you have any more questions or need further assistance, just let me know!
