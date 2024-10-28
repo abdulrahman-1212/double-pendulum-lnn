@@ -28,11 +28,11 @@ The potential energy of the pendulum system is given by:
 
 For the first pendulum:
 
-<img src="https://latex.codecogs.com/svg.latex?V_1=m_1g l_1(1-\cos(q_1))" title="V_1 = m_1 g l_1 (1 - \cos(q_1))" />
+<img src="https://latex.codecogs.com/svg.latex?V_1=m_1 g l_1 (1 - \cos(q_1))" title="V_1 = m_1 g l_1 (1 - \cos(q_1))" />
 
 For the second pendulum:
 
-<img src="https://latex.codecogs.com/svg.latex?V_2=m_2 g \left(l_1(1-\cos(q_1)) + l_2(1-\cos(q_2))\right)" title="V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)" />
+<img src="https://latex.codecogs.com/svg.latex?V_2=m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)" title="V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)" />
 
 
 ### Equations of Motion
