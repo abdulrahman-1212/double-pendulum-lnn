@@ -6,47 +6,33 @@
 
 This project models the dynamics of a double pendulum using a Lagrangian neural network (LNN). The double pendulum is a classic example of a chaotic system in classical mechanics, where the motion is governed by nonlinear differential equations derived from the Lagrangian formulation of mechanics. The primary goal of this project is to generate training data from the mathematical model and use it to train an LNN to predict the future states of the system.
 
-## Mathematical Model
+### Mathematical Model
+#### Lagrangian Mechanics
+The Lagrangian ( \( L \) ) is defined as the difference between the kinetic energy ( \( T \) ) and the potential energy ( \( V \) ) of the system:
 
-### Lagrangian Mechanics
+<img src="https://latex.codecogs.com/svg.latex?L=T-V" title="L = T - V" />
 
-The Lagrangian \( L \) is defined as the difference between the kinetic energy \( T \) and the potential energy \( V \) of the system:
-
-\[
-L = T - V
-\]
-
-### Kinetic Energy \( T \)
-
+#### Kinetic Energy ( \( T \) )
 The kinetic energy of each pendulum is computed as follows:
 
 For the first pendulum:
 
-\[
-T_1 = \frac{1}{2} m_1 \left( l_1 \dot{q}_1 \right)^2
-\]
+<img src="https://latex.codecogs.com/svg.latex?T_1=\frac{1}{2}m_1\left(l_1\dot{q}_1\right)^2" title="T_1 = \frac{1}{2} m_1 \left( l_1 \dot{q}_1 \right)^2" />
 
 For the second pendulum:
 
-\[
-T_2 = \frac{1}{2} m_2 \left( \left( l_1 \dot{q}_1 \cos(q_1) + l_2 \dot{q}_2 \cos(q_2) \right)^2 + \left( l_1 \dot{q}_1 \sin(q_1) + l_2 \dot{q}_2 \sin(q_2) \right)^2 \right)
-\]
+<img src="https://latex.codecogs.com/svg.latex?T_2=\frac{1}{2}m_2\left(\left(l_1\dot{q}_1\cos(q_1)+l_2\dot{q}_2\cos(q_2)\right)^2+\left(l_1\dot{q}_1\sin(q_1)+l_2\dot{q}_2\sin(q_2)\right)^2\right)" title="T_2 = \frac{1}{2} m_2 \left( \left( l_1 \dot{q}_1 \cos(q_1) + l_2 \dot{q}_2 \cos(q_2) \right)^2 + \left( l_1 \dot{q}_1 \sin(q_1) + l_2 \dot{q}_2 \sin(q_2) \right)^2 \right)" />
 
-### Potential Energy \( V \)
-
+#### Potential Energy ( \( V \) )
 The potential energy of the pendulum system is given by:
 
 For the first pendulum:
 
-\[
-V_1 = m_1 g l_1 (1 - \cos(q_1))
-\]
+<img src="https://latex.codecogs.com/svg.latex?V_1=m_1g l_1(1-\cos(q_1))" title="V_1 = m_1 g l_1 (1 - \cos(q_1))" />
 
 For the second pendulum:
 
-\[
-V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)
-\]
+<img src="https://latex.codecogs.com/svg.latex?V_2=m_2 g \left(l_1(1-\cos(q_1)) + l_2(1-\cos(q_2))\right)" title="V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)" />
 
 ### Equations of Motion
 
