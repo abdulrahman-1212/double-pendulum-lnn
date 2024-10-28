@@ -16,31 +16,37 @@ The Lagrangian \( L \) is defined as the difference between the kinetic energy \
 L = T - V
 \]
 
-#### Kinetic Energy (\( T \))
+### Kinetic Energy \( T \)
 
 The kinetic energy of each pendulum is computed as follows:
 
-- For the first pendulum:
-  \[
-  T_1 = \frac{1}{2} m_1 \left( l_1 \dot{q}_1 \right)^2
-  \]
-- For the second pendulum:
-  \[
-  T_2 = \frac{1}{2} m_2 \left( \left( l_1 \dot{q}_1 \cos(q_1) + l_2 \dot{q}_2 \cos(q_2) \right)^2 + \left( l_1 \dot{q}_1 \sin(q_1) + l_2 \dot{q}_2 \sin(q_2) \right)^2 \right)
-  \]
+For the first pendulum:
 
-#### Potential Energy (\( V \))
+\[
+T_1 = \frac{1}{2} m_1 \left( l_1 \dot{q}_1 \right)^2
+\]
+
+For the second pendulum:
+
+\[
+T_2 = \frac{1}{2} m_2 \left( \left( l_1 \dot{q}_1 \cos(q_1) + l_2 \dot{q}_2 \cos(q_2) \right)^2 + \left( l_1 \dot{q}_1 \sin(q_1) + l_2 \dot{q}_2 \sin(q_2) \right)^2 \right)
+\]
+
+### Potential Energy \( V \)
 
 The potential energy of the pendulum system is given by:
 
-- For the first pendulum:
-  \[
-  V_1 = m_1 g l_1 (1 - \cos(q_1))
-  \]
-- For the second pendulum:
-  \[
-  V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)
-  \]
+For the first pendulum:
+
+\[
+V_1 = m_1 g l_1 (1 - \cos(q_1))
+\]
+
+For the second pendulum:
+
+\[
+V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)
+\]
 
 ### Equations of Motion
 
