@@ -34,6 +34,7 @@ For the second pendulum:
 
 <img src="https://latex.codecogs.com/svg.latex?V_2=m_2 g \left(l_1(1-\cos(q_1)) + l_2(1-\cos(q_2))\right)" title="V_2 = m_2 g \left( l_1 (1 - \cos(q_1)) + l_2 (1 - \cos(q_2)) \right)" />
 
+
 ### Equations of Motion
 
 The equations of motion for the double pendulum can be derived from the Lagrangian using the Euler-Lagrange equations. These equations describe how the angles and angular velocities change over time, considering gravitational forces and the interaction between the two pendulums.
