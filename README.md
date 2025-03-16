@@ -1,6 +1,6 @@
 ---
 
-# Double Pendulum with Lagrangian Neural Network
+# Modelling Double Pendulum with Lagrangian Neural Network
 
 ## Overview
 
